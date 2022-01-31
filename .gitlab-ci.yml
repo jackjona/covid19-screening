@@ -68,7 +68,7 @@ deploy:prod:
   <<: *app_deploy_definition
   environment:
     name: Prod
-    url: https://covid-19.ontario.ca/courthouse-screening/
+    url: https://www.screening.ga/courthouse-screening/
   when: manual
   only:
     refs:

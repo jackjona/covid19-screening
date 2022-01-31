@@ -15,17 +15,17 @@ const footer = {
     { link: "http://news.ontario.ca/newsroom/en", text: "news" },
     { link: "https://www.ontario.ca/page/privacy-statement", text: "privacy" },
     { link: "https://www.ontario.ca/page/terms-use", text: "terms of use" },
-    { link: "https://screening.jackjona.ninja/school-screening/approved", text: "approved" }
+    { link: "https://www.screening.ga/school-screening/approved", text: "approved" }
   ],
 }
 
 const queensPrinter = {
   en: {
-    text: "© Queen’s Printer for Ontario, 2012–20 ",
+    text: "© Queen’s Printer for Ontario, 2012–22 ",
     link: "https://www.ontario.ca/page/copyright-information-c-queens-printer-ontario",
   },
   fr: {
-    text: "© Imprimeur de la Reine pour l’Ontario, 2012‑20 ",
+    text: "© Imprimeur de la Reine pour l’Ontario, 2012‑22 ",
     link: "https://www.ontario.ca/fr/page/droits-dauteur-imprimeur-de-la-reine-pour-lontarioc",
   },
 }

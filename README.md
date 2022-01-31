@@ -20,4 +20,4 @@ To build production version, use `yarn build`. Production build can be served lo
 
 ## CREDITS
 
-A fork of Ontario's [Self-Assessment](https://github.com/ongov/covid-19-self-assessment) and [School Screening](https://github.com/ongov/covid-19-screening-tools)
+A fork of Ontario's [School Screening](https://github.com/ongov/covid-19-screening-tools)

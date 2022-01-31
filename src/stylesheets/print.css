@@ -1,0 +1,84 @@
+/* -------------------------------
+    Print styles
+--------------------------------- */
+.ontario-show-for-print {
+  display: none;
+}
+
+@media print {
+  /* Global */
+  @page {
+    size: auto; /* auto is the initial value */
+    margin: 0mm; /* this affects the margin in the printer settings */
+  }
+
+  html {
+    background-color: #ffffff;
+    margin: 0px; /* this affects the margin on the html before sending to printer */
+  }
+
+  body {
+    margin: 5mm; /* margin you want for the content */
+  }
+
+  .ontario-hide-for-print {
+    display: none;
+  }
+
+  div.ontario-show-for-print {
+    display: block;
+  }
+
+  span.ontario-show-for-print {
+    display: inline-block;
+  }
+
+  a::after {
+    content: " (" attr(href) ") ";
+  }
+
+  /* Breadcrumbs */
+  .ontario-breadcrumbs {
+    display: none;
+  }
+
+  [class^="ontario-callout"],
+  [class*="ontario-callout"] {
+    padding: 0 !important;
+    border: none !important;
+  }
+
+  /* Form elements */
+  button {
+    display: none !important;
+  }
+
+  /* Footer */
+  footer {
+    display: none;
+  }
+
+  /* Header */
+  .ontario-site-logo-print {
+    display: block;
+    width: 150px;
+    margin: 1rem 0 0.5rem 0;
+  }
+
+  .ontario-main-header {
+    background-color: white;
+  }
+
+  .ontario-main-header__logo-link {
+    display: none;
+  }
+
+  .ontario-main-header__link {
+    display: none;
+  }
+
+  /* Info callout */
+  .ontario-callout--info {
+    background: none !important;
+  }
+}
